@@ -1,0 +1,162 @@
+body{
+     margin: 0;
+}
+.nav-bar{
+    background-color: lightslategray;
+    border-radius: 30px;
+}
+.nav-bar li{
+    list-style: none;
+    float: left;
+    margin:5px 60px;
+}
+.nav-bar ul{
+    overflow: auto;
+}
+.nav-bar li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color:white;
+}
+.top-banner{
+    display: flex;
+    background-image: url(images/Frame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+   
+}
+.sizzing{
+    width: 50%;
+}
+img{
+    width: 80%;
+}
+.top-description{
+    margin:0px 150px 0 15px;
+
+}
+ h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 60px;
+    color:#3e2723;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color:#18ffff;
+}
+
+p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    color:#0100ca;
+}
+ .top-banner a{
+    height: 50px;
+    width: 160px;
+    border-radius: 12px; 
+    padding: 10px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight:700 ;
+    box-shadow: 2px 3px 10px rgba(36, 115, 189, 0.842) ,-2px -3px 20px rgba(3, 61, 250, 0.801);
+    background-color: #1b2845;
+    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+}
+.second-banner a{
+    height: 50px;
+    width: 160px;
+    border-radius: 12px; 
+    padding: 10px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight:700 ;
+    box-shadow: 2px 3px 10px rgba(5, 243, 211, 0.842) ,-2px -3px 20px rgba(2, 235, 252, 0.801);
+    background-image: linear-gradient(315deg, #07f371 0%, #8bec0b 74%);
+}
+.second-banner{
+    display: flex;
+}
+.second-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.second-banner a{
+    color:cornsilk;
+    height: 20px;
+}
+.second-banner h1{
+  color:#7c4dff;
+}
+.second-banner p{
+  color: #e65100;
+}
+.third-banner-text{
+    text-align: center;
+}
+.contact-class{
+    background-image: url(images/mt-2115-img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:50%;
+    text-align: center;
+    margin-left: 400px;
+    padding: 0 20px 0 20px;
+}
+.control{
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid green;
+}
+.contact-class h1{
+    color: steelblue;
+}
+.product-showcas{
+    display: flex;
+}
+.product-showcas p{
+    font-size: 20px;
+}
+.product-showcas h4{
+    font-size: 17px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 27px;
+}
+.showcase-class{
+    width:30%;
+    margin-left: 35px;
+    height:520px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 14px 11px 54px 15px rgba(0,0,0,0.51);
+}
+footer{
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+} 
+.footer-hilight{
+background-color: orangered;
+color: lavenderblush;
+}
+footer p{
+color: ghostwhite;
+font-style: normal;
+font-size: 13px;
+}
+footer a{
+    text-decoration: none;
+    color: green;
+}
